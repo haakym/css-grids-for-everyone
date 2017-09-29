@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Grid</title>
+
+    <style>
+        .container {
+            display: grid;
+            width: 500px;
+            height: 400px;
+            margin: auto;
+            background: lightblue;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto;
+            grid-gap: 1em;
+        }
+
+        .item {
+            border: 5px solid lightslategray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+</body>
+</html>
